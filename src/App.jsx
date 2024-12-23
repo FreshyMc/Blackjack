@@ -145,7 +145,7 @@ function Chat() {
       <div>
         <button className='close-chat' onClick={handleMenu}>
           {
-            open ? <i className="fa-solid fa-message" /> : <i className="fa-solid fa-xmark" />
+            open ? <i className="fa-solid fa-xmark" /> : <i className="fa-solid fa-message" />
           }
         </button>
       </div>
